@@ -1,0 +1,16 @@
+import qrcode
+
+# img = qrcode.make("")
+# img.save("img.png")
+
+qr = qrcode.QRCode(
+    version=1,
+    error_correction=qrcode.constants.ERROR_CORRECT_L,
+    box_size=10,
+    border=1,
+)
+qr.add_data('You are beautiful!')
+# qr.make("Hello!")
+
+img = qr.make_image(fill_color="black", back_color="white")
+img.save("imgl.png")
