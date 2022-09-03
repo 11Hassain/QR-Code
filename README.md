@@ -1,4 +1,2 @@
-# MyRep
-This is my repository
-Hello world!
-I'm Hassain
+# QR-Code
+This is my rep where i put the QR code using Python
